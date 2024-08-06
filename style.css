@@ -1,0 +1,291 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+.writing-courses{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.writing-courses, .discount {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.column2 button {
+    background-color: rgba(89, 191, 204, 0.781);
+    border: none;
+    color: rgba(38, 107, 116, 0.781);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 20px 0;
+}
+.column2 p{
+    text-transform: uppercase;
+}
+.column1 {
+    background-color: #ccc;
+    width: 20%;
+}
+
+.column2, .column3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column3 img {
+    width: 600px;
+    height: 500px;
+}
+.wrap{
+    display: flex;
+    padding: 50px 250px;
+}
+
+.block {
+    position: relative;
+    width: 80%;
+    font-size: small;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-70%);
+    left: 0%;
+    background-color: rgba(72, 172, 185, 0.781);
+    padding: 6px;
+    width: 25px; 
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+} 
+.icon i {
+    color: rgba(36, 87, 94, 0.781); 
+    font-size: 20px; 
+} 
+.about{
+     background-color:  rgba(36, 87, 94, 0.781) ;
+     color: white;
+     width: 100%;
+     padding: 40px;
+}
+.student{
+    width: 30%;
+    padding: 30px;
+    position: relative;
+    left: 50%;
+}
+.student button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.learning{
+     background-color:  rgba(141, 200, 209, 0.096);
+     padding: 40px;
+}
+.heading{
+    position: relative;
+    width: 25%;
+    left:32%;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+.para{
+    position: relative;
+    width: 30%;
+    left: 52%;
+    color: rgba(36, 87, 94, 0.781);
+    
+}
+.image img{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 32%;
+}
+.Column-four{
+    background-color: rgba(36, 87, 94, 0.781);
+    height: 50%;
+    position: relative;
+    text-align: center;
+    padding: 60px;
+}
+
+.flex-main h3{
+    color: rgba(36, 87, 94, 0.781);
+}
+.Column-four img{
+    /* position: relative; */
+    padding: 70px;
+    margin-top: 50px;
+    width: 40%;
+    height: 40%;
+    /* top: 80%;
+    left: 30%; */
+}
+.fa-solid{
+    font-size: 35px;
+}
+.flex-main{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    top:20px;
+    left: 25%;
+}
+.flex1{
+    width: 40%;
+    margin-right: 50px;
+}
+.flex2{
+    margin-left: -20%;
+    width: 40%;
+    margin-left: 10px;
+}
+.img-container img{
+    width: 100%;
+    height: 500px;
+}
+.text{
+    width: 100%;
+    background-color:  #d8f4f85b;
+    padding: 40px;
+}
+.paragraph{
+    width: 50%;
+    margin-left: 250px;
+    padding: 90px;
+}
+.bg-img{
+   background-image: url(images/sx-min.jpg);
+   width: 100%;
+   height: 700px;
+}
+.text1{
+    position: relative;
+    padding: 50px;   
+    top: 350px;
+    left: 20%;
+    font-size: 30px;
+   width: 20%;
+   color: white;
+}
+.text2{
+    position: relative;
+    width: 30%;
+    text-transform: uppercase;
+    top: 170px;
+    left: 50%;
+    color: white;
+}
+.text2 button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.container-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    background-color:  #d8f4f85b;
+}
+
+.contact-form {
+    flex: 1;
+    text-align: center;
+    padding:40px;
+    background-color: rgba(36, 87, 94, 0.781);
+}
+
+.social-icons a {
+    color: black;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+.input{
+    background-color: rgba(36, 87, 94, 0.781);
+}
+textarea {
+    resize: vertical; /* Allows vertical resizing */
+}
+button[type="submit"] {
+    position: absolute;
+    left: 53%;
+    background-color:white;
+    color: rgba(36, 87, 94, 0.781);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(36, 87, 94, 0.781);
+    padding: 30px;
+}
+
+.footer-icons a {
+    color: white;
+    margin: 0 10px;
+}
+.info h3{
+    text-transform: uppercase;
+}
+.info li{
+    list-style: none;
+}
+.web-info{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
